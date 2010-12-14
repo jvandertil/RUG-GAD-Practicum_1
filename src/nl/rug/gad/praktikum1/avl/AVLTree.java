@@ -3,8 +3,8 @@ package nl.rug.gad.praktikum1.avl;
 public class AVLTree {
 
 	private AVLNode root;
-	private AVLNode first;
-	private AVLNode last;
+	private AVLNode first; /* Left most node */
+	private AVLNode last; /* Right most node */
 	private int height;
 	
 	public AVLNode findKey(String key) {
@@ -49,7 +49,7 @@ public class AVLTree {
 			}
 		}
 		
-		return null;
+		return result;
 	}
 	
 	/* Balancing functions */
@@ -98,6 +98,8 @@ public class AVLTree {
 		
 		if(p.hasLeft())
 			p.getLeft().setParent(p);
+		
+		q.setRight(p);
 	}
 
 	public AVLNode insert(String key) {
@@ -108,7 +110,7 @@ public class AVLTree {
 		
 		AVLNode node = new AVLNode(key);
 		
-		if(info.parent == null) {
+		if(info.parent == null) { /* No root */
 			root = node;
 			first = last = node;
 			height++;
@@ -159,6 +161,7 @@ public class AVLTree {
 			
 		case 2:
 			AVLNode right = unbalanced.getRight();
+			
 			if(right.getBalance() == 1) {
 				unbalanced.setBalance(0);
 				right.setBalance(0);
