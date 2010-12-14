@@ -35,14 +35,17 @@ public class AVLTree {
 			
 			cmpRes = node.getKey().compareTo(key);
 			
-			if(cmpRes == 0) {
+			if(cmpRes == 0) { /* Node key is equal to key */
 				result.node = node;
 				return result;
 			}
 			
-			result.parent = node;
+			result.parent = node; /* 
+								   * Assignment done here. This is because if the key is found at the first iteration, the key is in the root node. 
+								   * Root nodes don't have parents. Saves an assignment.
+								   */
 			
-			if((result.isLeft = cmpRes > 0)) { /* Node is smaller then key, go right */
+			if((result.isLeft = cmpRes > 0)) { /* Node is smaller then key, go left. Save this */
 				node = node.getLeft();
 			} else {
 				node = node.getRight();
@@ -53,8 +56,14 @@ public class AVLTree {
 	}
 	
 	/* Balancing functions */
-	private void rotate_left(AVLNode node) {
-		AVLNode p = node;
+	private void rotateLeft(AVLNode node) {
+		/*
+		 * Let Q be P's right child.
+		 * Set Q to be the new root.
+		 * Set P's right child to be Q's left child.
+		 * Set Q's left child to be P.
+		 */
+		AVLNode p = node; /* Pivot node */
 		AVLNode q = node.getRight();
 		AVLNode parent = node.getParent();
 		
@@ -77,38 +86,44 @@ public class AVLTree {
 		q.setLeft(p);
 	}
 	
-	private void rotate_right(AVLNode node) {
-		AVLNode p = node;
-		AVLNode q = node.getLeft();
-		AVLNode parent = p.getParent();
+	private void rotateRight(AVLNode node) {
+		/* 
+		 * Let P be Q's left child.
+		 * Set P to be the new root.
+		 * Set Q's left child to be P's right child.
+		 * Set P's right child to be Q.
+		 */
+		AVLNode q = node; /* Pivot node */
+		AVLNode p = node.getLeft();
+		AVLNode parent = q.getParent();
 		
-		if(!p.isRoot()) {
-			if(parent.getLeft() == p)
-				parent.setLeft(q);
+		if(!q.isRoot()) {
+			if(parent.getLeft() == q)
+				parent.setLeft(p);
 			else
-				parent.setRight(q);
+				parent.setRight(p);
 		} else {
-			root = q;
+			root = p;
 		}
 		
-		q.setParent(parent);
-		p.setParent(q);
+		p.setParent(parent);
+		q.setParent(p);
 		
-		p.setLeft(q.getRight());
+		q.setLeft(p.getRight());
 		
-		if(p.hasLeft())
-			p.getLeft().setParent(p);
+		if(q.hasLeft())
+			q.getLeft().setParent(q);
 		
-		q.setRight(p);
+		p.setRight(q);
 	}
 
 	public AVLNode insert(String key) {
 		InsertionInfo info = findInsertionPoint(key);
 		
-		if(info.node != null)
+		if(info.node != null) /* Key already in tree. Return node. */
 			return info.node;
 		
-		AVLNode node = new AVLNode(key);
+		AVLNode node = new AVLNode(key); 
 		
 		if(info.parent == null) { /* No root */
 			root = node;
@@ -137,7 +152,7 @@ public class AVLTree {
 		
 		AVLNode unbalanced = info.unbalanced;
 		
-		for(;;) {
+		for(;;) { /* Update balance values. */
 			if(parent.getLeft() == node)
 				parent.decBalance();
 			else
@@ -154,12 +169,12 @@ public class AVLTree {
 		case 1:
 			/* fall through */
 		case -1:
-			height++;
+			height++; /* Update tree height */
 			/* fall through */
 		case 0:
 			break;
 			
-		case 2:
+		case 2: /* Tree unbalanced to the right. */
 			AVLNode right = unbalanced.getRight();
 			
 			if(right.getBalance() == 1) {
@@ -183,12 +198,12 @@ public class AVLTree {
 				
 				right.getLeft().setBalance(0);
 				
-				rotate_right(right);
+				rotateRight(right);
 			}
-			rotate_left(unbalanced);
+			rotateLeft(unbalanced);
 			break;
 			
-		case -2:
+		case -2: /* Tree unbalanced to the left. */
 			AVLNode left = unbalanced.getLeft();
 			
 			if(left.getBalance() == -1) {
@@ -210,11 +225,12 @@ public class AVLTree {
 				}
 				left.getRight().setBalance(0);
 				
-				rotate_left(left);
+				rotateLeft(left);
 			}
-			rotate_right(unbalanced);
+			rotateRight(unbalanced);
 			break;
 		}
+		
 		return null;
 	}
 	

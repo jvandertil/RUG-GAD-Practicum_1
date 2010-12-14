@@ -8,14 +8,6 @@ public class AVLNode {
 
 	private String key;
 
-	public String getKey() {
-		return key;
-	}
-
-	public void setKey(String key) {
-		this.key = key;
-	}
-
 	private int balance; /* Range: -2 -> +2 */
 
 	public AVLNode(String key) {
@@ -26,6 +18,7 @@ public class AVLNode {
 	}
 
 	/* Start balance methods */
+	
 	public int getBalance() {
 		return balance;
 	}
@@ -44,12 +37,17 @@ public class AVLNode {
 
 	/* End balance methods */
 
+	/* Node methods */
 	public AVLNode getParent() {
 		return parent;
 	}
 
 	public void setParent(AVLNode parent) {
 		this.parent = parent;
+	}
+	
+	public boolean isRoot() {
+		return parent == null;
 	}
 	
 	public AVLNode getLeft() {
@@ -68,7 +66,6 @@ public class AVLNode {
 		this.right = right;
 	}
 
-
 	public boolean hasLeft() {
 		return left != null;
 	}
@@ -77,30 +74,13 @@ public class AVLNode {
 		return right != null;
 	}
 
-	public boolean isLeaf() {
-		return !hasLeft() && !hasRight();
+	/* Key methods */
+
+	public String getKey() {
+		return key;
 	}
 
-	public boolean isRoot() {
-		return parent == null;
-	}
-
-	/* Iterators */
-	public AVLNode getFirst(AVLNode node) {
-		AVLNode _node = node;
-
-		while (_node.left != null)
-			_node = _node.left;
-
-		return _node;
-	}
-
-	public AVLNode getLast(AVLNode node) {
-		AVLNode _node = node;
-
-		while (_node.right != null)
-			_node = _node.right;
-
-		return _node;
+	public void setKey(String key) {
+		this.key = key;
 	}
 }
