@@ -5,28 +5,43 @@ public class Profiler {
 	public static final Profiler NULL = new NullProfiler();
 	
 	private static final class NullProfiler extends Profiler {
-		public void incAssignments() { }
-		public void addAssignments(long assignments) { }
-		public void incComparisons() { }
-		public void addComparisons(long comparisons) { }
+		public Profiler incAssignments() { return this;}
+		public Profiler addAssignments(long assignments) { return this;}
+		public Profiler incComparisons() {return this; }
+		public Profiler addComparisons(long comparisons) {return this; }
 	}
 	
 	private long comparisons;
 	private long assignments;
 	
-	public void incAssignments() {
+	public Profiler incAssignments() {
 		++assignments;
+		
+		return this;
 	}
 	
-	public void addAssignments(long assignments) {
+	public Profiler addAssignments(long assignments) {
 		this.assignments += assignments;
+		
+		return this;
 	}
 	
-	public void incComparisons() {
+	public Profiler incComparisons() {
 		++comparisons;
+		
+		return this;
 	}
 	
-	public void addComparisons(long comparisons) {
+	public Profiler addComparisons(long comparisons) {
 		this.comparisons += comparisons;
+		
+		return this;
+	}
+	
+	public void reset(boolean reset) {
+		if(reset) {
+			comparisons = 0;
+			assignments = 0;
+		}
 	}
 }

@@ -51,8 +51,9 @@ public class AVLTree implements ITree {
 			if(node.getBalance() != 0)
 				result.unbalanced = node;
 			
-			profiler.incComparisons();
 			cmpRes = node.getKey().compareTo(key);
+			profiler.incComparisons();
+			profiler.incAssignments();
 			
 			if(cmpRes == 0) { /* Node key is equal to key */
 				result.node = node;
