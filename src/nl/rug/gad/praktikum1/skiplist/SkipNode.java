@@ -1,6 +1,8 @@
 package nl.rug.gad.praktikum1.skiplist;
 
-public class SkipNode {
+import nl.rug.gad.praktikum1.ITreeNode;
+
+public class SkipNode implements ITreeNode {
 
 	private SkipNode before, after, above, below;
 	private String text;
@@ -79,5 +81,10 @@ public class SkipNode {
 	
 	public SkipNode above(){
 		return above;
+	}
+
+	@Override
+	public String getKey() {
+		return text;
 	}
 }

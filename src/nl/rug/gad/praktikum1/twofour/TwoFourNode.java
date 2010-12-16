@@ -2,7 +2,7 @@ package nl.rug.gad.praktikum1.twofour;
 
 import java.util.LinkedList;
 
-public class TwoFourNode {
+public class TwoFourNode implements ITree {
 
 	private LinkedList<String> valuesList = new LinkedList<String>();
 	private LinkedList<TwoFourNode> childrenList = new LinkedList<TwoFourNode>();
