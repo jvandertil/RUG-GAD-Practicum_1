@@ -247,26 +247,35 @@ public class AVLTree implements ITree {
 		case 2: /* Tree unbalanced to the right. */
 			AVLNode right = unbalanced.getRight();
 			
+			profiler.incAssignments();
+			
 			if(right.getBalance() == 1) {
 				unbalanced.setBalance(0);
 				right.setBalance(0);
+				
+				profiler.addAssignments(2);
 			} else {
 				switch(right.getLeft().getBalance()) {
 				case 1:
 					unbalanced.setBalance(-1);
 					right.setBalance(0);
+					profiler.addAssignments(2);
 					break;
 				case 0:
 					unbalanced.setBalance(0);
 					right.setBalance(0);
+					profiler.addAssignments(2);
 					break;
 				case -1:
 					unbalanced.setBalance(0);
 					right.setBalance(1);
+					profiler.addAssignments(2);
 					break;
 				}
 				
 				right.getLeft().setBalance(0);
+				
+				profiler.incAssignments();
 				
 				rotateRight(right);
 			}
@@ -276,24 +285,34 @@ public class AVLTree implements ITree {
 		case -2: /* Tree unbalanced to the left. */
 			AVLNode left = unbalanced.getLeft();
 			
+			profiler.incAssignments();
+			
 			if(left.getBalance() == -1) {
 				unbalanced.setBalance(0);
 				left.setBalance(0);
+				
+				profiler.addAssignments(2);
 			} else {
 				switch(left.getRight().getBalance()) {
 				case 1:
 					unbalanced.setBalance(0);
 					left.setBalance(-1);
+					profiler.addAssignments(2);
 					break;
 				case 0:
 					unbalanced.setBalance(0);
 					left.setBalance(0);
+					profiler.addAssignments(2);
 					break;
 				case -1:
 					unbalanced.setBalance(1);
 					left.setBalance(0);
+					profiler.addAssignments(2);
+					break;
 				}
 				left.getRight().setBalance(0);
+				
+				profiler.incAssignments();
 				
 				rotateLeft(left);
 			}
