@@ -6,16 +6,9 @@ public class TreeImpl implements ITree {
 	private TreeNode root;
 
 	@Override
-	public boolean containsKey(String key) {
+	public TreeNode getNode(String key) {
 		if (root == null)
-			return false;
-
-		return findKey(key) != null;
-	}
-
-	public TreeNode findKey(String key) {
-		if (root == null)
-			throw new IllegalStateException("root == null");
+			return null;
 
 		TreeNode next = root;
 
@@ -32,9 +25,11 @@ public class TreeImpl implements ITree {
 	}
 
 	@Override
-	public void insert(String key) {
-		if (containsKey(key))
-			return;
+	public TreeNode insert(String key) {
+		TreeNode node = getNode(key);
+		
+		if (node != null)
+			return node;
 
 		if (root == null) {
 			root = new TreeNode(key);
@@ -62,18 +57,19 @@ public class TreeImpl implements ITree {
 				}
 			}
 		}
+		
+		return null;
 	}
 
 	private boolean goesLeft(TreeNode node, String key) {
 		return node.key.compareTo(key) < 0;
 	}
 
-	@Override
 	public boolean delete(String key) {
 		if (root == null)
 			return false;
 
-		TreeNode node = findKey(key);
+		TreeNode node = (TreeNode) getNode(key);
 
 		if (node == null)
 			return false;
@@ -134,6 +130,7 @@ public class TreeImpl implements ITree {
 	}
 
 	private TreeNode inord(TreeNode a) {
+
 		int t = 0;
 		TreeNode ret, prev = a;
 		a = a.right;
@@ -156,4 +153,5 @@ public class TreeImpl implements ITree {
 		a = null;
 		return ret;
 	}
+
 }

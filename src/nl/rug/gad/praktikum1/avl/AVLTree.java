@@ -1,13 +1,27 @@
 package nl.rug.gad.praktikum1.avl;
 
-public class AVLTree {
+import nl.rug.gad.praktikum1.ITree;
+import nl.rug.gad.praktikum1.util.Profiler;
+
+public class AVLTree implements ITree {
 
 	private AVLNode root;
 	private AVLNode first; /* Left most node */
 	private AVLNode last; /* Right most node */
 	private int height;
 	
-	public AVLNode findKey(String key) {
+	private Profiler profiler;
+	
+	public AVLTree() {
+		this(Profiler.NULL);
+	}
+	
+	public AVLTree(Profiler p) {
+		profiler = p;
+	}
+	
+	@Override
+	public AVLNode getNode(String key) {
 		return findInsertionPoint(key).node;
 	}
 	
@@ -22,6 +36,8 @@ public class AVLTree {
 		AVLNode node = root;
 		int cmpRes = 0;
 		
+		profiler.addAssignments(2);
+		
 		InsertionInfo result = new InsertionInfo();
 		
 		result.node = null;
@@ -29,17 +45,22 @@ public class AVLTree {
 		result.isLeft = false;
 		result.parent = null;
 		
+		profiler.addAssignments(4);
+		
 		while(node != null) {
 			if(node.getBalance() != 0)
 				result.unbalanced = node;
 			
+			profiler.incComparisons();
 			cmpRes = node.getKey().compareTo(key);
 			
 			if(cmpRes == 0) { /* Node key is equal to key */
 				result.node = node;
+				profiler.incAssignments();
 				return result;
 			}
 			
+			profiler.incAssignments();
 			result.parent = node; /* 
 								   * Assignment done here. This is because if the key is found at the first iteration, the key is in the root node. 
 								   * Root nodes don't have parents. Saves an assignment.
@@ -50,6 +71,8 @@ public class AVLTree {
 			} else {
 				node = node.getRight();
 			}
+			
+			profiler.incAssignments();
 		}
 		
 		return result;
@@ -67,6 +90,8 @@ public class AVLTree {
 		AVLNode q = node.getRight();
 		AVLNode parent = node.getParent();
 		
+		profiler.addAssignments(3);
+		
 		if(!p.isRoot()) {
 			if(parent.getLeft() == p)
 				parent.setLeft(q);
@@ -76,14 +101,22 @@ public class AVLTree {
 			root = q;
 		}
 		
+		profiler.incAssignments();
+		
 		q.setParent(parent);
 		p.setParent(q);
 		p.setRight(q.getLeft());
 		
-		if(p.hasRight())
+		profiler.addAssignments(3);
+		
+		if(p.hasRight()) {
 			p.getRight().setParent(p);
+			profiler.incAssignments();
+		}
 		
 		q.setLeft(p);
+		
+		profiler.incAssignments();
 	}
 	
 	private void rotateRight(AVLNode node) {
@@ -97,6 +130,8 @@ public class AVLTree {
 		AVLNode p = node.getLeft();
 		AVLNode parent = q.getParent();
 		
+		profiler.addAssignments(3);
+		
 		if(!q.isRoot()) {
 			if(parent.getLeft() == q)
 				parent.setLeft(p);
@@ -106,44 +141,69 @@ public class AVLTree {
 			root = p;
 		}
 		
+		profiler.incAssignments();
+		
 		p.setParent(parent);
 		q.setParent(p);
-		
 		q.setLeft(p.getRight());
 		
-		if(q.hasLeft())
+		profiler.addAssignments(3);
+		
+		if(q.hasLeft()) {
 			q.getLeft().setParent(q);
+			
+			profiler.incAssignments();
+		}
 		
 		p.setRight(q);
+		
+		profiler.incAssignments();
 	}
 
+	@Override
 	public AVLNode insert(String key) {
 		InsertionInfo info = findInsertionPoint(key);
+		
+		profiler.incAssignments();
 		
 		if(info.node != null) /* Key already in tree. Return node. */
 			return info.node;
 		
-		AVLNode node = new AVLNode(key); 
+		AVLNode node = new AVLNode(key);
+		
+		profiler.incAssignments();
 		
 		if(info.parent == null) { /* No root */
 			root = node;
 			first = last = node;
 			height++;
 			
+			profiler.addAssignments(3);
+			/*
+			 * if height++ should also becounted as an assignment:
+			 */
+			//profiler.incAssignments();
 			return null;
 		}
 		
 		AVLNode parent = info.parent;
 		
+		profiler.incAssignments();
+		
 		if(info.isLeft) {
-			if(parent == first)
+			if(parent == first) {
 				first = node;
+				profiler.incAssignments();
+			}
 		} else {
-			if(parent == last)
+			if(parent == last) {
 				last = node;
+				profiler.incAssignments();
+			}
 		}
 		
 		node.setParent(parent);
+		
 		if(info.isLeft) {
 			parent.setLeft(node);
 		} else {
@@ -152,17 +212,26 @@ public class AVLTree {
 		
 		AVLNode unbalanced = info.unbalanced;
 		
+		profiler.addAssignments(3);
+		
 		for(;;) { /* Update balance values. */
 			if(parent.getLeft() == node)
 				parent.decBalance();
 			else
 				parent.incBalance();
 			
+			/*
+			 * if decBalance and incBalance are also assignments
+			 */
+			//profiler.incAssignments();
+			
 			if(parent == unbalanced)
 				break;
 			
 			node = parent;
 			parent = parent.getParent();
+			
+			profiler.addAssignments(2);
 		}
 		
 		switch(unbalanced.getBalance()) {
@@ -170,6 +239,7 @@ public class AVLTree {
 			/* fall through */
 		case -1:
 			height++; /* Update tree height */
+			//profiler.incAssignments();
 			/* fall through */
 		case 0:
 			break;
@@ -233,5 +303,4 @@ public class AVLTree {
 		
 		return null;
 	}
-	
 }

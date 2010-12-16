@@ -1,6 +1,8 @@
 package nl.rug.gad.praktikum1.avl;
 
-public class AVLNode {
+import nl.rug.gad.praktikum1.ITreeNode;
+
+public class AVLNode implements ITreeNode {
 
 	private AVLNode parent;
 	private AVLNode left;

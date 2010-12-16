@@ -1,6 +1,8 @@
 package nl.rug.gad.praktikum1.binary;
 
-public class TreeNode implements Comparable<TreeNode> {
+import nl.rug.gad.praktikum1.ITreeNode;
+
+public class TreeNode implements Comparable<TreeNode>, ITreeNode {
 
 	public String key;
 	public TreeNode parent;
@@ -30,5 +32,10 @@ public class TreeNode implements Comparable<TreeNode> {
 			count++;
 		
 		return count;
+	}
+
+	@Override
+	public String getKey() {
+		return key;
 	}
 }
