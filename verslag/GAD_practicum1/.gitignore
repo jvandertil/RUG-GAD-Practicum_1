@@ -4,3 +4,5 @@
 *.lof
 *.log
 *.toc
+*.bbl
+*.blg
