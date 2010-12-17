@@ -1,0 +1,151 @@
+\chapter{Util classes}
+\lstset{language=Java}
+\begin{lstlisting}[caption=Util classes Source code - Profiler]
+public class Profiler {
+
+	public static final Profiler NULL = new NullProfiler();
+	
+	private static final class NullProfiler extends Profiler {
+		public Profiler incAssignments() { return this;}
+		public Profiler addAssignments(long assignments) { return this;}
+		public Profiler incComparisons() {return this; }
+		public Profiler addComparisons(long comparisons) {return this; }
+	}
+	
+	private long comparisons;
+	private long assignments;
+	
+	public Profiler incAssignments() {
+		++assignments;
+		
+		return this;
+	}
+	
+	public Profiler addAssignments(long assignments) {
+		this.assignments += assignments;
+		
+		return this;
+	}
+	
+	public Profiler incComparisons() {
+		++comparisons;
+		
+		return this;
+	}
+	
+	public Profiler addComparisons(long comparisons) {
+		this.comparisons += comparisons;
+		
+		return this;
+	}
+	
+	public void reset(boolean reset) {
+		if(reset) {
+			comparisons = 0;
+			assignments = 0;
+		}
+	}
+
+	public void printInfo() {
+		System.out.printf("Comparisons: %d\nAssignments: %d\n", comparisons, assignments);
+	}
+}
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Util classes Source code - StopWatch]
+public class StopWatch {
+
+	private Map<String, StopWatchInfo> stopWatchMap;
+	
+	public StopWatch() {
+		stopWatchMap = new HashMap<String, StopWatchInfo>();
+	}
+	
+	public void start(String name) {
+		StopWatchInfo info = new StopWatchInfo();
+		
+		stopWatchMap.put(name, info);
+		
+		info.startTime = System.currentTimeMillis();
+	}
+	
+	public void stop(String name) {
+		long stop = System.currentTimeMillis();
+		
+		StopWatchInfo info = stopWatchMap.get(name);
+		
+		info.stopTime = stop;
+	}
+	
+	public void printTimers() {
+		for(Entry<String, StopWatchInfo> entry : stopWatchMap.entrySet()) {
+			System.out.printf("------%s------\n", entry.getKey());
+			System.out.printf("-- Run time: %d ms.\n", getTimeMillis(entry.getKey()));
+		}
+			
+	}
+	
+	public long getTimeMillis(String name) {
+		StopWatchInfo info = stopWatchMap.get(name);
+		
+		if(info.stopTime == 0)
+			return System.currentTimeMillis() - info.startTime;
+		
+		return info.stopTime - info.startTime;
+	}
+	
+	private class StopWatchInfo {
+		public long startTime;
+		public long stopTime;
+	}
+}
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Util classes Source code - TextSource]
+public class TextSource {
+
+	private Map<String, List<String>> textFiles;
+	
+	public TextSource() {
+		textFiles = new HashMap<String, List<String>>();
+	}
+	
+	public List<String> getTextFile(String name) {
+		if(!textFiles.containsKey(name)) {
+			BufferedReader reader = null;
+			
+			try {
+				reader = new BufferedReader(new FileReader(name));
+				List<String> list = new LinkedList<String>();
+				
+				
+				String line;
+				while((line = reader.readLine()) != null) {
+					String[] split = line.split(" ");
+					
+					Collections.addAll(list, split);
+				}
+				
+				textFiles.put(name, list);
+			} catch(IOException ioe) {
+				ioe.printStackTrace();
+				System.exit(-1);
+			} finally {
+				try {
+					reader.close();
+				} catch(Exception e) {/* Ignored, we are destroying anyway */}
+			}
+		}
+		
+		return textFiles.get(name);
+	}
+
+	public void preloadAll() {
+		getTextFile("text1");
+		getTextFile("text2");
+		getTextFile("text3");
+		getTextFile("text4");
+		getTextFile("text5");
+	}
+}
+\end{lstlisting}
