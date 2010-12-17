@@ -26,8 +26,8 @@ public class SkipList implements ITree {
 
 	public ITreeNode insert(String text) {
 		SkipNode p = getNode(text);
-		profiler.incComparisons();
 		
+		profiler.incComparisons();
 		if (p.compareTo(text) == 0) {
 			return p;
 		}
@@ -135,6 +135,7 @@ public class SkipList implements ITree {
 			p = p.below();
 			profiler.incAssignments();
 			
+			profiler.incComparisons();
 			while (p.after().compareTo(text) <= 0) {
 				p = p.after();
 				profiler.incComparisons()

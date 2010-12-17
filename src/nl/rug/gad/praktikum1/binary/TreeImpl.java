@@ -18,17 +18,14 @@ public class TreeImpl implements ITree {
 
 	@Override
 	public TreeNode getNode(String key) {
-		if (root == null)
-			return null;
-
 		TreeNode next = root;
-		
 		profiler.incAssignments();
 		
 		int comp;
 
 		while (next != null) {
 			comp = key.compareTo(next.key);
+			
 			profiler.incComparisons()
 					.incAssignments();
 			
@@ -84,7 +81,7 @@ public class TreeImpl implements ITree {
 					profiler.incAssignments();
 				} else if (compRes > 0 && current.right == null) {
 					// Bigger, and right child is free. Insert
-					current.right = current;
+					current.right = new TreeNode(key);
 					current.right.parent = current;
 					inserted = true;
 					
