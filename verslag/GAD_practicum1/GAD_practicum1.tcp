@@ -6,7 +6,7 @@ Version=4
 MainFile=GAD_practicum1.tex
 UseBibTeX=0
 UseMakeIndex=0
-ActiveProfile=
+ActiveProfile=LaTeX => PDF
 ProjectLanguage=
 ProjectDialect=
 
