@@ -46,4 +46,12 @@ public class TextSource {
 		
 		return textFiles.get(name);
 	}
+
+	public void preloadAll() {
+		getTextFile("text1");
+		getTextFile("text2");
+		getTextFile("text3");
+		getTextFile("text4");
+		getTextFile("text5");
+	}
 }

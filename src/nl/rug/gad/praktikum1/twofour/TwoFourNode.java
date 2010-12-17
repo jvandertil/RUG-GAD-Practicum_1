@@ -2,7 +2,9 @@ package nl.rug.gad.praktikum1.twofour;
 
 import java.util.LinkedList;
 
-public class TwoFourNode implements ITree {
+import nl.rug.gad.praktikum1.ITreeNode;
+
+public class TwoFourNode implements ITreeNode {
 
 	private LinkedList<String> valuesList = new LinkedList<String>();
 	private LinkedList<TwoFourNode> childrenList = new LinkedList<TwoFourNode>();
@@ -12,6 +14,10 @@ public class TwoFourNode implements ITree {
 	
 	public TwoFourNode(){
 		
+	}
+	
+	public String getKey() {
+		throw new IllegalAccessError("Use getValues() lulz");
 	}
 	
 	public int addValue(String text){

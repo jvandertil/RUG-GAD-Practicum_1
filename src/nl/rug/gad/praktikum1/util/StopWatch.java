@@ -31,7 +31,7 @@ public class StopWatch {
 	public void printTimers() {
 		for(Entry<String, StopWatchInfo> entry : stopWatchMap.entrySet()) {
 			System.out.printf("------%s------\n", entry.getKey());
-			System.out.printf("-- Run time: %d ms." + getTimeMillis(entry.getKey()));
+			System.out.printf("-- Run time: %d ms.\n", getTimeMillis(entry.getKey()));
 		}
 			
 	}

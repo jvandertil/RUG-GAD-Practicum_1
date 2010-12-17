@@ -1,8 +1,8 @@
 package nl.rug.gad.praktikum1.twofour;
 
-import nl.rug.gad.praktikum1.ITreeNode;
+import nl.rug.gad.praktikum1.ITree;
 
-public class TwoFourTree implements ITreeNode {
+public class TwoFourTree implements ITree {
 
 	private TwoFourNode root;
 	
@@ -15,7 +15,7 @@ public class TwoFourTree implements ITreeNode {
 	}
 	
 	public TwoFourNode insert(String text){
-		TwoFourNode node = search(text);
+		TwoFourNode node = getNode(text);
 		
 		if(node.contains(text)){
 			return node;
@@ -87,7 +87,7 @@ public class TwoFourTree implements ITreeNode {
 		}
 	}
 	
-	public TwoFourNode search(String text){
+	public TwoFourNode getNode(String text){
 		TwoFourNode node = root;
 		while(!node.contains(text) && !node.isExternal()){
 			int i = 0;

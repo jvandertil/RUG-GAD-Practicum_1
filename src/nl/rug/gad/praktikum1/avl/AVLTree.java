@@ -179,11 +179,7 @@ public class AVLTree implements ITree {
 			first = last = node;
 			height++;
 			
-			profiler.addAssignments(3);
-			/*
-			 * if height++ should also becounted as an assignment:
-			 */
-			//profiler.incAssignments();
+			profiler.addAssignments(4);
 			return null;
 		}
 		
@@ -221,10 +217,7 @@ public class AVLTree implements ITree {
 			else
 				parent.incBalance();
 			
-			/*
-			 * if decBalance and incBalance are also assignments
-			 */
-			//profiler.incAssignments();
+			profiler.incAssignments();
 			
 			if(parent == unbalanced)
 				break;
@@ -240,7 +233,7 @@ public class AVLTree implements ITree {
 			/* fall through */
 		case -1:
 			height++; /* Update tree height */
-			//profiler.incAssignments();
+			profiler.incAssignments();
 			/* fall through */
 		case 0:
 			break;

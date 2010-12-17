@@ -44,4 +44,8 @@ public class Profiler {
 			assignments = 0;
 		}
 	}
+
+	public void printInfo() {
+		System.out.printf("Comparisons: %d\nAssignments: %d\n", comparisons, assignments);
+	}
 }
