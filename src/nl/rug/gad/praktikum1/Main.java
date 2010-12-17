@@ -68,6 +68,9 @@ public class Main {
 
 			System.out.println("End of run");
 		}
+		
+		System.out.flush();
+		System.out.close();
 	}
 
 	private static void test(ITree tree, Profiler p, TextSource tx,
