@@ -2,13 +2,13 @@
 \chapter{Introductie}
 \label{sec:Hoofdstuk 1}
 
-Een deel van de cursus Gevorderde Algoritmen en Datastructuren is een praticum, deze bestaat uit twee opdrachten. De eerste opdracht staat in dit document beschreven. Het doel van deze opdracht luidt: \textit{"ervaring opdoen met het analyseren en vergelijken van zoekalgoritmen. De opdracht sluit aan bij Chapter 3 van het leerboek Algorithm Design van Goodrich en Tamassia.
+Een deel van de cursus Gevorderde Algoritmen en Datastructuren is een praticum, deze bestaat uit twee opdrachten. De eerste opdracht staat in dit document beschreven. Het doel van deze opdracht luidt: \textit{"Ervaring opdoen met het analyseren en vergelijken van zoekalgoritmen. De opdracht sluit aan bij Chapter 3 van het leerboek Algorithm Design van Goodrich en Tamassia.
 Het is de bedoeling om twee programma’s te ontwikkelen, waarmee je kunt bepalen welke
 datastructuur beter is om een doorzoekbaar geordend lexicon (searchable ordered dictionary) te implementeren:
 een conventionele binaire zoekboom, of een van de volgende alternatieve datastructuren:
 AVL-boom, (2,4)-boom, splay tree, skip list. De programma’s dienen een tekstbestand woord voor
 woord te lezen, waarbij elk nieuw woord wordt toegevoegd aan de datastructuur. Elk woord komt dus
-slechts ´e´enmaal voor in de datastructuur."}\\
+slechts eenmaal voor in de datastructuur."}\\
 \\
 Een aantal van deze datastructuren staat beschreven in dit document, naast de beschrijving van de datastructuur is ook de uitkomst van de analyses die zijn uitgevoerd beschreven. In deze analyses is gekeken naar het aantal stringvergelijkingen, het aantal toekenningen in de code en de tijd die nodig is bij bepaalde handelingen.\\
 \\
@@ -18,5 +18,7 @@ In hoofdstuk 7 zal de analyse van al deze structuren behandeld worden.
 \\
 \section{Verwachting}
 
+Wij verwachten dat de datastructuren die niet afhankelijk zijn van een random waarde, zoals de AVL-tree, het meest betrouwbaar zijn qua response tijd voor de zoek en toevoeg functies. Ook verwachten wij dat bij geordende invoer, de ongebalanceerde binaire boom het slechtst presteert, dit omdat de hele boom dan naar 1 kant ´leunt´. Bij willekeurige invoer zal dit minder sterk naar voren komen.
 
+Wij verwachten dat van alle datastructeren die AVL boom het beste presteert qua zoek en opbouw tijd, dit omdat deze heel strikt in balans gehouden wordt. Ook verwachten wij dat de AVL boom de meeste assignments gebruikt, omdat er bij het balanceren tree rotations gebruikt worden. Het aantal string vergelijkingen zou significant lager moeten zijn dan bij andere structuren, omdat door de balancering de hoogte gelimiteerd is rond $log(n)$ waarin $n$ het aantal interne nodes is.
 % ********** End of chapter **********
