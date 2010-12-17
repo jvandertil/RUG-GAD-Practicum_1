@@ -1,0 +1,2090 @@
+Start of run 0....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 10171 ms.
+------Insertion text1------
+-- Run time: 20733 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 12620 ms.
+------Insertion text2------
+-- Run time: 25787 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 47 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 40685 ms.
+------Insertion text4------
+-- Run time: 83179 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 406 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 16 ms.
+------Insertion text2------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 46 ms.
+------Insertion text3------
+-- Run time: 32 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 78 ms.
+------Insertion text4------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 639 ms.
+------Insertion text5------
+-- Run time: 468 ms.
+
+SkipList
+Insertion
+Comparisons: 573742
+Assignments: 1146327
+Search
+Comparisons: 573938
+Assignments: 592274
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 283099
+Assignments: 834346
+Search
+Comparisons: 549764
+Assignments: 568100
+------Search text2------
+-- Run time: 46 ms.
+------Insertion text2------
+-- Run time: 16 ms.
+Insertion
+Comparisons: 532566
+Assignments: 1111375
+Search
+Comparisons: 552574
+Assignments: 570910
+------Search text3------
+-- Run time: 62 ms.
+------Insertion text3------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 1132372
+Assignments: 2322360
+Search
+Comparisons: 1112429
+Assignments: 1150804
+------Search text4------
+-- Run time: 94 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 5606931
+Assignments: 6797355
+Search
+Comparisons: 5518205
+Assignments: 5710080
+------Search text5------
+-- Run time: 858 ms.
+------Insertion text5------
+-- Run time: 873 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 94 ms.
+------Insertion text1------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 94 ms.
+------Insertion text2------
+-- Run time: 187 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 93 ms.
+------Insertion text3------
+-- Run time: 390 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 156 ms.
+------Insertion text4------
+-- Run time: 312 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1326 ms.
+------Insertion text5------
+-- Run time: 1826 ms.
+End of run
+Start of run 1....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 10655 ms.
+------Insertion text1------
+-- Run time: 21028 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 12948 ms.
+------Insertion text2------
+-- Run time: 26099 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 32 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 45895 ms.
+------Insertion text4------
+-- Run time: 92773 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 406 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 32 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 63 ms.
+------Insertion text4------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 468 ms.
+------Insertion text5------
+-- Run time: 468 ms.
+
+SkipList
+Insertion
+Comparisons: 504065
+Assignments: 1072272
+Search
+Comparisons: 486411
+Assignments: 504747
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 253649
+Assignments: 801826
+Search
+Comparisons: 509887
+Assignments: 528223
+------Search text2------
+-- Run time: 47 ms.
+------Insertion text2------
+-- Run time: 15 ms.
+Insertion
+Comparisons: 516572
+Assignments: 1079532
+Search
+Comparisons: 548431
+Assignments: 566767
+------Search text3------
+-- Run time: 78 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 1137735
+Assignments: 2326280
+Search
+Comparisons: 1185035
+Assignments: 1223410
+------Search text4------
+-- Run time: 78 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 6032596
+Assignments: 7220814
+Search
+Comparisons: 5983030
+Assignments: 6174905
+------Search text5------
+-- Run time: 889 ms.
+------Insertion text5------
+-- Run time: 874 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 93 ms.
+------Insertion text1------
+-- Run time: 141 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 94 ms.
+------Insertion text2------
+-- Run time: 187 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 93 ms.
+------Insertion text3------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 156 ms.
+------Insertion text4------
+-- Run time: 546 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1232 ms.
+------Insertion text5------
+-- Run time: 1529 ms.
+End of run
+Start of run 2....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 11388 ms.
+------Insertion text1------
+-- Run time: 22230 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 13088 ms.
+------Insertion text2------
+-- Run time: 28096 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 48938 ms.
+------Insertion text4------
+-- Run time: 100620 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 421 ms.
+------Insertion text5------
+-- Run time: 468 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 16 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 47 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 62 ms.
+------Insertion text4------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 468 ms.
+------Insertion text5------
+-- Run time: 484 ms.
+
+SkipList
+Insertion
+Comparisons: 584192
+Assignments: 1158002
+Search
+Comparisons: 582112
+Assignments: 600448
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 263857
+Assignments: 814449
+Search
+Comparisons: 535122
+Assignments: 553458
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 500848
+Assignments: 1072562
+Search
+Comparisons: 526565
+Assignments: 544901
+------Search text3------
+-- Run time: 62 ms.
+------Insertion text3------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 1154273
+Assignments: 2349157
+Search
+Comparisons: 1146697
+Assignments: 1185072
+------Search text4------
+-- Run time: 94 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 5968669
+Assignments: 7158692
+Search
+Comparisons: 5875785
+Assignments: 6067660
+------Search text5------
+-- Run time: 874 ms.
+------Insertion text5------
+-- Run time: 873 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 78 ms.
+------Insertion text2------
+-- Run time: 406 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 124 ms.
+------Insertion text3------
+-- Run time: 172 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 172 ms.
+------Insertion text4------
+-- Run time: 312 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1232 ms.
+------Insertion text5------
+-- Run time: 1732 ms.
+End of run
+Start of run 3....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 11824 ms.
+------Insertion text1------
+-- Run time: 24430 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 14555 ms.
+------Insertion text2------
+-- Run time: 26130 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 48470 ms.
+------Insertion text4------
+-- Run time: 103319 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 390 ms.
+------Insertion text5------
+-- Run time: 546 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 32 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 32 ms.
+------Insertion text3------
+-- Run time: 46 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 62 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 468 ms.
+------Insertion text5------
+-- Run time: 468 ms.
+
+SkipList
+Insertion
+Comparisons: 503430
+Assignments: 1069378
+Search
+Comparisons: 508510
+Assignments: 526846
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 280715
+Assignments: 829836
+Search
+Comparisons: 509509
+Assignments: 527845
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 477472
+Assignments: 1045041
+Search
+Comparisons: 515448
+Assignments: 533784
+------Search text3------
+-- Run time: 63 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1081329
+Assignments: 2272111
+Search
+Comparisons: 1112816
+Assignments: 1151191
+------Search text4------
+-- Run time: 93 ms.
+------Insertion text4------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 5986419
+Assignments: 7172172
+Search
+Comparisons: 5941470
+Assignments: 6133345
+------Search text5------
+-- Run time: 921 ms.
+------Insertion text5------
+-- Run time: 905 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 62 ms.
+------Insertion text1------
+-- Run time: 140 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 63 ms.
+------Insertion text2------
+-- Run time: 234 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 141 ms.
+------Insertion text3------
+-- Run time: 171 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 141 ms.
+------Insertion text4------
+-- Run time: 530 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1279 ms.
+------Insertion text5------
+-- Run time: 1575 ms.
+End of run
+Start of run 4....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 10795 ms.
+------Insertion text1------
+-- Run time: 24149 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 12761 ms.
+------Insertion text2------
+-- Run time: 27472 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 32 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 48158 ms.
+------Insertion text4------
+-- Run time: 100744 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 390 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 16 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 63 ms.
+------Insertion text4------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 421 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+
+SkipList
+Insertion
+Comparisons: 516706
+Assignments: 1090269
+Search
+Comparisons: 510707
+Assignments: 529043
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 286603
+Assignments: 839788
+Search
+Comparisons: 519114
+Assignments: 537450
+------Search text2------
+-- Run time: 46 ms.
+------Insertion text2------
+-- Run time: 32 ms.
+Insertion
+Comparisons: 499111
+Assignments: 1066738
+Search
+Comparisons: 513093
+Assignments: 531429
+------Search text3------
+-- Run time: 63 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 1199895
+Assignments: 2385662
+Search
+Comparisons: 1183547
+Assignments: 1221922
+------Search text4------
+-- Run time: 78 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 6408970
+Assignments: 7590352
+Search
+Comparisons: 6487420
+Assignments: 6679295
+------Search text5------
+-- Run time: 905 ms.
+------Insertion text5------
+-- Run time: 858 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 109 ms.
+------Insertion text1------
+-- Run time: 109 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 93 ms.
+------Insertion text2------
+-- Run time: 188 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 78 ms.
+------Insertion text3------
+-- Run time: 172 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 188 ms.
+------Insertion text4------
+-- Run time: 468 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1170 ms.
+------Insertion text5------
+-- Run time: 1482 ms.
+End of run
+Start of run 5....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 12027 ms.
+------Insertion text1------
+-- Run time: 22105 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 16362 ms.
+------Insertion text2------
+-- Run time: 25038 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 47 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 50856 ms.
+------Insertion text4------
+-- Run time: 108108 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 390 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 16 ms.
+------Insertion text1------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 63 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 452 ms.
+------Insertion text5------
+-- Run time: 468 ms.
+
+SkipList
+Insertion
+Comparisons: 511119
+Assignments: 1078416
+Search
+Comparisons: 508430
+Assignments: 526766
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 248226
+Assignments: 802740
+Search
+Comparisons: 508414
+Assignments: 526750
+------Search text2------
+-- Run time: 47 ms.
+------Insertion text2------
+-- Run time: 15 ms.
+Insertion
+Comparisons: 461339
+Assignments: 1032264
+Search
+Comparisons: 494686
+Assignments: 513022
+------Search text3------
+-- Run time: 62 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 1123581
+Assignments: 2317181
+Search
+Comparisons: 1145802
+Assignments: 1184177
+------Search text4------
+-- Run time: 78 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 5841302
+Assignments: 7022213
+Search
+Comparisons: 5733225
+Assignments: 5925100
+------Search text5------
+-- Run time: 874 ms.
+------Insertion text5------
+-- Run time: 858 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 62 ms.
+------Insertion text2------
+-- Run time: 234 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 140 ms.
+------Insertion text3------
+-- Run time: 359 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 140 ms.
+------Insertion text4------
+-- Run time: 328 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1232 ms.
+------Insertion text5------
+-- Run time: 1529 ms.
+End of run
+Start of run 6....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 12028 ms.
+------Insertion text1------
+-- Run time: 23228 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 14321 ms.
+------Insertion text2------
+-- Run time: 25584 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 32 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 51074 ms.
+------Insertion text4------
+-- Run time: 105768 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 546 ms.
+------Insertion text5------
+-- Run time: 1045 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 16 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 47 ms.
+------Insertion text4------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 453 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+
+SkipList
+Insertion
+Comparisons: 525894
+Assignments: 1093605
+Search
+Comparisons: 532452
+Assignments: 550788
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 259177
+Assignments: 806874
+Search
+Comparisons: 536924
+Assignments: 555260
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 506563
+Assignments: 1075018
+Search
+Comparisons: 524076
+Assignments: 542412
+------Search text3------
+-- Run time: 63 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1196839
+Assignments: 2386371
+Search
+Comparisons: 1260976
+Assignments: 1299351
+------Search text4------
+-- Run time: 93 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 5574592
+Assignments: 6760941
+Search
+Comparisons: 5471030
+Assignments: 5662905
+------Search text5------
+-- Run time: 858 ms.
+------Insertion text5------
+-- Run time: 858 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 109 ms.
+------Insertion text1------
+-- Run time: 110 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 93 ms.
+------Insertion text2------
+-- Run time: 390 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 93 ms.
+------Insertion text3------
+-- Run time: 188 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 171 ms.
+------Insertion text4------
+-- Run time: 297 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1232 ms.
+------Insertion text5------
+-- Run time: 1498 ms.
+End of run
+Start of run 7....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 11778 ms.
+------Insertion text1------
+-- Run time: 25537 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 14071 ms.
+------Insertion text2------
+-- Run time: 26396 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 32 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 50591 ms.
+------Insertion text4------
+-- Run time: 106735 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 390 ms.
+------Insertion text5------
+-- Run time: 452 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 32 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 62 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 468 ms.
+------Insertion text5------
+-- Run time: 468 ms.
+
+SkipList
+Insertion
+Comparisons: 522343
+Assignments: 1095017
+Search
+Comparisons: 506910
+Assignments: 525246
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 269830
+Assignments: 814325
+Search
+Comparisons: 570339
+Assignments: 588675
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 32 ms.
+Insertion
+Comparisons: 490069
+Assignments: 1059037
+Search
+Comparisons: 503732
+Assignments: 522068
+------Search text3------
+-- Run time: 63 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1110466
+Assignments: 2296516
+Search
+Comparisons: 1099697
+Assignments: 1138072
+------Search text4------
+-- Run time: 93 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 5544066
+Assignments: 6736183
+Search
+Comparisons: 5422015
+Assignments: 5613890
+------Search text5------
+-- Run time: 842 ms.
+------Insertion text5------
+-- Run time: 827 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 63 ms.
+------Insertion text1------
+-- Run time: 359 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 124 ms.
+------Insertion text2------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 94 ms.
+------Insertion text3------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 156 ms.
+------Insertion text4------
+-- Run time: 296 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1279 ms.
+------Insertion text5------
+-- Run time: 1498 ms.
+End of run
+Start of run 8....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 13120 ms.
+------Insertion text1------
+-- Run time: 24352 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 13275 ms.
+------Insertion text2------
+-- Run time: 25693 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 50824 ms.
+------Insertion text4------
+-- Run time: 104271 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 406 ms.
+------Insertion text5------
+-- Run time: 437 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 31 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 16 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 62 ms.
+------Insertion text4------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 437 ms.
+------Insertion text5------
+-- Run time: 484 ms.
+
+SkipList
+Insertion
+Comparisons: 505936
+Assignments: 1076032
+Search
+Comparisons: 503805
+Assignments: 522141
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 255296
+Assignments: 804146
+Search
+Comparisons: 495624
+Assignments: 513960
+------Search text2------
+-- Run time: 47 ms.
+------Insertion text2------
+-- Run time: 15 ms.
+Insertion
+Comparisons: 467418
+Assignments: 1034293
+Search
+Comparisons: 500046
+Assignments: 518382
+------Search text3------
+-- Run time: 62 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 1187931
+Assignments: 2369848
+Search
+Comparisons: 1197669
+Assignments: 1236044
+------Search text4------
+-- Run time: 94 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 5868412
+Assignments: 7058220
+Search
+Comparisons: 5759245
+Assignments: 5951120
+------Search text5------
+-- Run time: 889 ms.
+------Insertion text5------
+-- Run time: 858 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 280 ms.
+------Insertion text1------
+-- Run time: 141 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 93 ms.
+------Insertion text2------
+-- Run time: 188 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 78 ms.
+------Insertion text3------
+-- Run time: 187 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 171 ms.
+------Insertion text4------
+-- Run time: 297 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1201 ms.
+------Insertion text5------
+-- Run time: 1732 ms.
+End of run
+Start of run 9....
+
+BinaryTree
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text1------
+-- Run time: 12854 ms.
+------Insertion text1------
+-- Run time: 24664 ms.
+Insertion
+Comparisons: 336190560
+Assignments: 672491133
+Search
+Comparisons: 168113616
+Assignments: 336227232
+------Search text2------
+-- Run time: 13775 ms.
+------Insertion text2------
+-- Run time: 26349 ms.
+Insertion
+Comparisons: 613660
+Assignments: 1337333
+Search
+Comparisons: 325166
+Assignments: 650332
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 62 ms.
+Insertion
+Comparisons: 1472602250
+Assignments: 2945434747
+Search
+Comparisons: 736339500
+Assignments: 1472679000
+------Search text4------
+-- Run time: 47595 ms.
+------Insertion text4------
+-- Run time: 100215 ms.
+Insertion
+Comparisons: 4257080
+Assignments: 8897907
+Search
+Comparisons: 3611525
+Assignments: 7223050
+------Search text5------
+-- Run time: 390 ms.
+------Insertion text5------
+-- Run time: 437 ms.
+AVLTree
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text1------
+-- Run time: 32 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 242273
+Assignments: 1304131
+Search
+Comparisons: 242288
+Assignments: 818544
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 237809
+Assignments: 1184931
+Search
+Comparisons: 246521
+Assignments: 831243
+------Search text3------
+-- Run time: 31 ms.
+------Insertion text3------
+-- Run time: 47 ms.
+Insertion
+Comparisons: 548465
+Assignments: 2853906
+Search
+Comparisons: 548481
+Assignments: 1837318
+------Search text4------
+-- Run time: 62 ms.
+------Insertion text4------
+-- Run time: 78 ms.
+Insertion
+Comparisons: 2773238
+Assignments: 10227649
+Search
+Comparisons: 2791420
+Assignments: 9333635
+------Search text5------
+-- Run time: 468 ms.
+------Insertion text5------
+-- Run time: 453 ms.
+
+SkipList
+Insertion
+Comparisons: 553162
+Assignments: 1119338
+Search
+Comparisons: 547559
+Assignments: 565895
+------Search text1------
+-- Run time: 47 ms.
+------Insertion text1------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 255661
+Assignments: 812447
+Search
+Comparisons: 510504
+Assignments: 528840
+------Search text2------
+-- Run time: 31 ms.
+------Insertion text2------
+-- Run time: 31 ms.
+Insertion
+Comparisons: 528645
+Assignments: 1101383
+Search
+Comparisons: 543833
+Assignments: 562169
+------Search text3------
+-- Run time: 62 ms.
+------Insertion text3------
+-- Run time: 63 ms.
+Insertion
+Comparisons: 1143074
+Assignments: 2331712
+Search
+Comparisons: 1202092
+Assignments: 1240467
+------Search text4------
+-- Run time: 78 ms.
+------Insertion text4------
+-- Run time: 94 ms.
+Insertion
+Comparisons: 5861653
+Assignments: 7056687
+Search
+Comparisons: 5762180
+Assignments: 5954055
+------Search text5------
+-- Run time: 858 ms.
+------Insertion text5------
+-- Run time: 826 ms.
+
+2-4 Tree
+Insertion
+Comparisons: 647141
+Assignments: 1169220
+Search
+Comparisons: 574193
+Assignments: 429481
+------Search text1------
+-- Run time: 63 ms.
+------Insertion text1------
+-- Run time: 156 ms.
+Insertion
+Comparisons: 1150025
+Assignments: 1251704
+Search
+Comparisons: 524697
+Assignments: 532957
+------Search text2------
+-- Run time: 110 ms.
+------Insertion text2------
+-- Run time: 171 ms.
+Insertion
+Comparisons: 698519
+Assignments: 1021189
+Search
+Comparisons: 622921
+Assignments: 431363
+------Search text3------
+-- Run time: 94 ms.
+------Insertion text3------
+-- Run time: 171 ms.
+Insertion
+Comparisons: 1456303
+Assignments: 2548444
+Search
+Comparisons: 1282218
+Assignments: 994303
+------Search text4------
+-- Run time: 188 ms.
+------Insertion text4------
+-- Run time: 249 ms.
+Insertion
+Comparisons: 7436395
+Assignments: 6424654
+Search
+Comparisons: 7024950
+Assignments: 5063905
+------Search text5------
+-- Run time: 1248 ms.
+------Insertion text5------
+-- Run time: 1716 ms.
+End of run
